@@ -1,0 +1,17 @@
+23. Faça um programa que receba um número real, encontre e mostre:
+
+a) a parte inteira desse número;
+b) a parte fracionária desse número;
+c) o arredondamento desse número.
+
+Declare num, inteiro, fracionario, arredondamento, num_parseado_em_lista;
+Imprima “Digite um numero:”
+Leia num
+
+num_parseado_em_lista= num split “.”
+
+print(“A parte inteira do número é:”, num_parseado_em_lista[0])
+print(“A parte inteira do número é:”, num_parseado_em_lista[1])
+valor_arredondado =  num_parseado_em_lista[0] + 1
+print(“A parte inteira do número é:”, valor_arredondado)
+
