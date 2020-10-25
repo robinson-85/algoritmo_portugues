@@ -1,0 +1,21 @@
+Lista 2
+
+14. Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre: 
+ a) a idade dessa pessoa;
+ b) quantos anos ela terá em 2050.
+
+Receba ano_atual, ano_nascimento, idade, idade_2050,
+Imprima (“Digite seu ano de nascimento: “)
+Leia ano_nascimento
+Imprima (“Digite o ano atual: “)
+Leia ano_atual
+
+idade = ano_atual – ano_nascimento;
+diferença_2050= 2050 – ano_atual;
+idade_2050 = idade + diferença_2050;
+
+Escreva (“A sua idade atual e:”, idade)
+Escreva (“A sua idade em 2050 será: “, idade_2050);
+
+Fim
+

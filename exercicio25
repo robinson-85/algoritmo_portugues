@@ -1,0 +1,18 @@
+25. Faça um programa que receba o custo de um espetáculo teatral e o preço do convite desse espetáculo. 
+Esse programa deverá calcular e mostrar a quantidade de convites que devem ser vendidos para que ,pelo menos, 
+o custo do espetáculo seja alcançado.
+
+//Preciso saber o custo do espetáculo
+//Também o preço do convite
+
+Leia custo, convite, quantidade,
+Imprima (“Digite o valor do custo do espetáculo teatral:")
+Imprima (“Digite o valor do convite:")
+
+//Aí eu preciso saber qual a quantidade de convites, que eu preciso vender para alcançar o custo do espetáculo.
+
+quantidade = custo div convite;
+quantidade_arredondada = quantidade + 1;
+Imprima (“A quantidade será de: ”, quantidade)
+Fim
+
