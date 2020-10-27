@@ -1,0 +1,19 @@
+// Exercicio 1
+// Faça um programa que receba quatro números inteiros, calcule e 
+// mostre a soma desses números 
+
+DESCRIÇÃO NARRATIVA
+PASSO 1 - RECEBER OS QUATRO NUMEROS
+PASSO 2 - SOMAR OS NUMEROS 
+PASSO 3 - MOSTRAR O RESULTADO 
+
+
+
+
+ALGORITMO
+	DECLARE n1, n2, n3, n4, soma NUMERICO
+	ESCREVA "DIGITE VALORES"
+	LEIA n1, n2, n3, n4
+	soma <- n1 + n2 + n3 + n4
+	ESCREVA SOMA
+FIM ALGORITMO

@@ -1,0 +1,19 @@
+// Exercicio 2
+// Faça um programa que receba três notas, calcule e mostre 
+// a média aritmética
+
+DESCRIÇÃO NARRATIVA
+PASSO 1 - RECEBER TRÂS NUMEROS
+PASSO 2 - CALCULAR A MEDIA 
+PASSO 3 - MOSTRAR O RESULTADO 
+
+
+
+
+ALGORITMO
+	DECLARE nota1, nota2, nota3, media NUMERICO
+	ESCREVA "DIGITE VALORES"
+	LEIA nota1, nota2, nota3
+	media <- (nota1, nota2, nota3)/3
+	ESCREVA media
+FIM ALGORITMO

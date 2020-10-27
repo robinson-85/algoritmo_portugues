@@ -1,0 +1,34 @@
+pseudocódigo:
+Algoritmo A
+    DECLARE N1,N2,M NUMERICO
+    ESCREVA "Digite dois números" 
+      LEIA N1,N2
+M = N1*N2
+ESCREVA "Multiplicação =" M
+FIM
+
+
+
+
+Algoritmo C
+     DECLARE N1,N2,N,M NUMERICO
+     ESCREVA "Digite as notas"
+     LEIA N1,N2,N 
+  M = (N1+N2)/N 
+  SE M = OU MAIOR 6 
+      ESCREVA "Aprovado"
+  SE M MENOR QUE 6
+      ESCREVA "Reprovado"
+      FIM
+
+
+Algoritmo D
+     DECLARE N1,S NUMERICO
+      ESCREVA "digite salário"
+     LEIA N1
+   SE N1 = OU MENOR R$500,00 ENTÃO
+      S= R$500+20%
+   SENÃO 
+      S= R$501+10%
+      ESCREVA "Soma de salario="S
+      FIM

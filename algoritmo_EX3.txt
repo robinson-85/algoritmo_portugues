@@ -1,0 +1,27 @@
+// Exercicio 3
+// Faça um programa que receba tres notas e seus respectivos pesos, calcule e 
+// mostre a média ponderada 
+
+DESCRIÇÃO NARRATIVA
+PASSO 1 - RECEBER TRES NOTAS 
+PASSO 2 - RECEBER TRES PESOS
+PASSO 3 - CALCULAR A MEDIA  
+PASSO 4 - MOSTRAR O RESULTADO 
+
+
+
+
+ALGORITMO
+	DECLARE n1, n2, n3, P1, P2, P3, media NUMERICO
+	ESCREVA "DIGITE VALORES"
+	LEIA n1, n2, n3, p1, p2, p3
+	media <- (n1*p1 + n2*p2 + n3*p3)/ (p1+p2+p3)
+	ESCREVA MEDIA
+FIM ALGORITMO
+
+
+
+
+
+
+
