@@ -6,15 +6,15 @@ Lista 2
 
 Receba ano_atual, ano_nascimento, idade, idade_2050,
 Imprima (“Digite seu ano de nascimento: “)
-Leia ano_nascimento
+Leia ano_nascimento;
 Imprima (“Digite o ano atual: “)
-Leia ano_atual
+Leia ano_atual;
 
 idade = ano_atual – ano_nascimento;
 diferença_2050= 2050 – ano_atual;
 idade_2050 = idade + diferença_2050;
 
-Escreva (“A sua idade atual e:”, idade)
+Escreva (“A sua idade atual e:”, idade);
 Escreva (“A sua idade em 2050 será: “, idade_2050);
 
 Fim

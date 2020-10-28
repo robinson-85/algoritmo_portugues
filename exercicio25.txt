@@ -9,10 +9,10 @@ Leia custo, convite, quantidade,
 Imprima (“Digite o valor do custo do espetáculo teatral:")
 Imprima (“Digite o valor do convite:")
 
-//Aí eu preciso saber qual a quantidade de convites, que eu preciso vender para alcançar o custo do espetáculo.
+//Eu preciso saber qual a quantidade de convites que eu preciso vender para alcançar o custo do espetáculo.
 
 quantidade = custo div convite;
-quantidade_arredondada = quantidade + 1;
+
 Imprima (“A quantidade será de: ”, quantidade)
 Fim
 

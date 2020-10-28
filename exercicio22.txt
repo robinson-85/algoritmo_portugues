@@ -1,11 +1,11 @@
 22. Faça um programa que receba o salário base e o tempo de serviço de um
 funcionário. Calcule e mostre:
 ■ O imposto, conforme a tabela a seguir.
-Salário Base                                                            % Sobre o salário base
-<R$ 200,00                                                                      Isento 
-Entre R$ 200,00(inclusive) e R$ 450,00(inclusive)                                 3%
-Entre R$ 450,00 e R$ 700,00                                                       8%
->= R$ 700,00                                                                      12%
+Salário Base                                                 % Sobre o salário base
+<R$ 200,00                                                          Isento 
+Entre R$ 200,00(inclusive) e R$ 450,00(inclusive)                     3%
+Entre R$ 450,00 e R$ 700,00                                           8%
+>= R$ 700,00                                                          12%
 
 
 
