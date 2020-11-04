@@ -1,1 +1,9 @@
 3.8. Escreva um programa que leia um valor em metros e o exiba convertidos em milímetros.
+
+Declare metro;
+Imprima(“Declare um valor em metros:”);
+Leia metros;
+metro = metro * 1000; 
+Imprima(“O valor declarado em metros equivale a: mm”, metro);
+Fim do algoritmo. 
+

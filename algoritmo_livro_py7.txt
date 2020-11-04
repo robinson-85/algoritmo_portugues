@@ -1,1 +1,9 @@
 3.7. Faça um programa que peça dois números inteiros. Imprima a soma desses dois números na tela.
+
+Declare n1, n2, soma;
+Imprima (“Digite dois números inteiros:”)
+Leia n1;
+Leia n2;
+soma = n1 + n2;
+Imprima(“A soma desses números será: ”, soma);
+Fim do algoritmo. 
