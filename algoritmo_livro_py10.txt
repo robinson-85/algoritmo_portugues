@@ -1,2 +1,16 @@
 3.10. Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do 
 novo salário.
+
+Declare salario, porcentagem_aumento, valor_aumento, novo_salario;
+Imprima(“Declare o seu salario:”);
+Leia salario;
+Imprima(“Declare a porcentagem de aumento do salario:”);
+Leia porcentagem_aumento;
+
+valor_aumento = salario * porcentagem_aumento / 100;
+novo_salario = salario + valor_aumento;
+
+Imprima(“O valor do aumento do seu salario será:”, valor_aumento);
+Imprima(“O seu novo salario será:”, novo_salario);
+Fim do algoritmo.
+

@@ -1,1 +1,20 @@
  3.9. Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.
+
+Declare dias, horas, minutos, segundos, total_segundos;
+Imprima ("Digite uma quantidade de dias: \n");
+Leia dias;
+Imprima ("Digite uma quantidade de horas: \n");
+Leia horas;
+Imprima("Digite uma quantidade de minutos: \n");
+Leia minutos;
+Imprima("Digite uma quantidade de segundos: \n");
+Leia segundos;
+
+#1 minuto == 60 segundos; 1 horas == 3600 segundos; 24 horas == 86400. 
+
+total_segundos=(n3*60)+(n2*3600)+(n1*86400)
+
+Imprima("O total de segundos e %.2f. \n", total_segundos);
+
+Fim do algoritmo.
+
