@@ -1,1 +1,15 @@
 3.11. Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
+
+Declare preço_mercadoria, percentual_desconto, valor_desconto, preço_final;
+Imprima(“Declare o preço da mercadoria:”);
+Leia preço_mercadoria;
+Imprima(“Declare o percentual de desconto:”);
+Leia percentual_desconto;
+
+valor_desconto = preço_mercadoria * percentual_desconto / 100;
+preço_final = preço_mercadoria – valor_desconto;
+
+Imprima(“O valor do desconto da mercadoria será:”, valor_desconto);
+Imprima(“O preço final a pagar pela mercadoria será:”, preço_final);
+Fim do algoritmo.
+
