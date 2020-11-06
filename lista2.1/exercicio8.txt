@@ -1,0 +1,26 @@
+8. Faça um programa que mostre o menu de opções a seguir, receba a opção do usuário e os dados necessários para executar cada operação.
+Menu de opções:
+1. Somar dois números.
+2. Raiz quadrada de um número.
+Digite a opção desejada:
+
+Declare n1, n2, n, soma, raiz_quadrada, resposta;
+Imprima(“Digite a opção desejada: \n 1. Somar dois números \n2. Raiz quadrada de um número \n”)
+Leia (resposta)
+Se (resposta == 1){
+	Imprima(“Digite dois números:”);
+	Leia n1;
+	Leia n2;
+	soma = n1 + n2; 
+	Imprima(“A soma dos dois números é:”, soma);
+}
+Se não se (resposta == 2){
+	Imprima(“Digite um número para saber a sua raiz quadrada: \n”);
+	Leia(n);
+	raiz quadrada = sqrt(n);  // raiz quadrada de um número
+	Imprima(“A raiz quadrada do número será:”, raiz quadrada);
+{
+Se não{
+	Imprima(“Opção inválida”);
+	}
+Fim do algoritmo.

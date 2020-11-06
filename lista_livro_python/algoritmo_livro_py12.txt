@@ -1,0 +1,14 @@
+3.12. Escreva um programa que calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem. 
+
+
+Declare tempo_viagem, distância, velocidade_média;
+Imprima(“Qual a distância a percorrer?:”);
+Leia distância;
+Imprima(“Qual será a velocidade média para a viagem?:”);
+Leia velocidade_média;
+
+tempo_viagem = distância / velocidade_média;
+
+Imprima(“O seu tempo de viagem será:”, tempo_viagem);
+
+Fim do algoritmo.

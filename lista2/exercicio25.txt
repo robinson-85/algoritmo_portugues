@@ -5,14 +5,17 @@ o custo do espetáculo seja alcançado.
 //Preciso saber o custo do espetáculo
 //Também o preço do convite
 
-Leia custo, convite, quantidade,
-Imprima (“Digite o valor do custo do espetáculo teatral:")
-Imprima (“Digite o valor do convite:")
+Declare custo, convite, quantidade;
+Imprima (“Digite o valor do custo do espetáculo teatral:");
+Leia
+Imprima (“Digite o valor do convite:");
+Leia
 
 //Eu preciso saber qual a quantidade de convites que eu preciso vender para alcançar o custo do espetáculo.
 
-quantidade = custo div convite;
+quantidade = custo/convite;
 
-Imprima (“A quantidade será de: ”, quantidade)
-Fim
+Imprima (“A quantidade será de: ”, quantidade);
+
+Fim do algoritmo.
 

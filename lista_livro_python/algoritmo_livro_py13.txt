@@ -1,0 +1,12 @@
+ 3.13. Escreva um programa que converta uma temperatura digitada em °C em °F. A fórmula para essa conversão é: F = 9 * 5 + 32 / 5.
+
+Declare graus_celsius, graus_fahrenheit;
+Imprima(“Digite uma temperatura em graus Celsius:”);
+Leia graus_celsius;
+
+graus_fahrenheit = graus_celsius * (9/5) + 32;
+
+Imprima(“A temperatura digitada em °C será em °F:”, graus_fahrenheit); 
+ 
+Fim do algoritmo.
+
