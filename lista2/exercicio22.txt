@@ -1,0 +1,21 @@
+22. Sabe-se que o quilowatt de energia custa um quinto do salário mínimo. Faça um programa que receba o valor do salário mínimo e a quantidade de quilowatts consumida por uma residência. Calcule e mostre:
+a) o valor de cada quilowatt;
+b) o valor a ser pago por essa residência;
+c) o valor a ser pago com desconto de 15%.
+
+Declare sal_mínimo, consumo_quilowatts, valor_total, quilowatts, valor_pagar;
+Imprima("Declare o valor do salario mínimo:");
+Leia(sal_mínimo);
+Imprima(“Declare a quantidade de quilowatts consumida na residência:”);
+Leia(consumo_quilowatts);
+
+quilowatts = sal_mínimo/5;
+Imprima(“O valor do quilowatt é:”, valor_quilowatts);
+
+valor_total = consumo_quilowatts * quilowatts;
+Imprima(“O valor de quilowatts a ser pago por essa residência é:”, valor_total);
+valor_pagar = valor_total * 0.15;
+
+Imprima(“O valor a ser pago com desconto de 15% é:”, valor_pagar);
+
+Fim do algoritmo.

@@ -1,0 +1,21 @@
+15. O salário a receber do funcionário é igual ao salário líquido mais a gratificação.
+
+Salario líquido             Gratificação
+Até R$ 350,00               R$ 100,00
+Superior a R$ 350,00        R$ 50,00 
+
+
+Declare sal_receber, sal_liquido, gratificação;
+Imprima("Digite o salário liquido:");
+Leia(sal_liquido);
+
+sal_receber = sal_liquido + gratificação;
+Se (sal_liquido <= 350){
+sal_receber = sal_liquido + 100;
+}
+Se não{
+sal_receber = sal_liquido + 50;
+}
+Imprima("\Seu salário a receber sera:", sal_receber);
+Fim do algoritmo.
+
