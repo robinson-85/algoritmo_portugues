@@ -1,0 +1,18 @@
+5. Faça um programa que receba três números obrigatoriamente em ordem crescente e um quarto número que não siga essa regra. Mostre, em seguida, os quatro números em ordem decrescente. Suponha que o usuário digitará quatro números diferentes.
+
+Declare num1, num2, num3, num4;
+Imprima("Digite o primeiro número em ordem crescente:" );
+Leia (num1);
+Leia (num2);
+Leia (num3);
+Imprima ("Digite um número (fora de ordem): ");
+Leia (num4);
+SE (num4 > num3)
+	Imprima(“A ordem decrescente é: “, num4, “-“, num3, “-“, num2, “-“, num1
+SE (num4 > num2) E (num4 < num3)
+	Imprima(“A ordem decrescente é: “, num3, “-“, num4, “-”, num2, “-“, num1
+SE (num4 > num1) E (num4 < num2)
+Imprima(“A ordem decrescente é: “, num3, “-“, num2, “-“, num4, “-“, num1);
+SE (num4 < num1)
+Imprima(“A ordem decrescente é: “, num3, “-“, num2, “-“, num1, “-“ num4);
+FIM_ALGORITMO

@@ -1,0 +1,25 @@
+2. Faça um programa que receba três notas de um aluno, calcule e mostre a média aritmética e a mensagem constante na tabela a seguir. Aos alunos que ficaram para exame, calcule e mostre a nota que deverão tirar para serem aprovados, considerando que a média exigida é 6,0.
+
+Média Ponderada                                	Conceito 
+0--------3                                     	 	Reprovado
+3--------7                                      	 	   Exame
+7--------10                                    		Aprovado
+
+Declare nota1, nota2, nota3, media, nota_exame;
+Imprima ("Digite a primeira nota: ") ;
+Leia (nota1);
+Imprima ("Digite a segunda nota: "); 
+Leia (nota2);
+Imprima ("Digite a terceira nota: ");
+ Leia (nota3);
+media = (nota1 + nota2 + nota3) / 3;
+Imprima ("Média aritmética: ", media)
+SE (media >= 0) E (media < 3)
+	Imprima ("Reprovado")
+ SE (media >= 3) E (media < 7)
+	ENTÃO INÍCIO
+	Imprima("Exame" nota_exame = 12 - media);
+	Imprima("Deve tirar nota ", nota_exame," para ser aprovado")
+SE (media >= 7) E (media < 10)
+Imprima("Aprovado")
+FIM_ALGORITMO
