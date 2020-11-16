@@ -1,0 +1,43 @@
+10. Faça um programa que determine a data cronologicamente maior entre duas datas fornecidas pelo usuário. Cada data deve ser composta por três valores inteiros, 
+em que o primeiro representa o dia, o segundo, o mês e o terceiro, o ano.
+
+Declare maior, menor, dia1, dia2, mês1, mês2, ano1, ano2;
+Imprima(“Declare o dia:”);
+Leia (dia1);
+Imprima(“Declare um mês:”);
+Leia (mês1)
+Imprima(Declare um ano:”)
+Leia(ano1);
+Imprima(“Declare o dia:”);
+Leia (dia2);
+Imprima(“Declare um mês:”);
+Leia (mês2)
+Imprima(Declare um ano:”)
+Leia(ano2);
+Imprima(“A primeira data é: %d/%d/%d”, dia1, mês1, ano1);
+Imprima(“A segunda data é: %d/%d/%d”, dia2, mês, ano2);
+
+Se(ano1>ano2){
+        Imprima("A maior data é: %d/%d/%d \n", dia1, mes1, ano1);
+    }
+    Se não se(ano2>ano1){
+        Imprima("A maior data é: %d/%d/%d \n", dia2, mes2, ano2);
+    }
+    Se não se(mes1>mes2){
+        Imprima("A maior data é: %d/%d/%d \n", dia1, mes1, ano1);
+    }
+    Se não se(mes2>mes1){
+        Imprima("A maior data é: %d/%d/%d \n", dia2, mes2, ano2);
+    }
+    Se não se(dia1>dia2){
+        Imprima("A maior data é: %d/%d/%d \n", dia1, mes1, ano1);
+    }
+    Se não se(dia2>dia1){
+        Imprima("A maior data é: %d/%d/%d \n", dia2, mes2, ano2);
+    }
+    Se não{
+        Imprima("As datas são iguais! \n");
+    }
+Fim do algoritmo.
+
+
