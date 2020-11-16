@@ -1,0 +1,51 @@
+1. A nota final de um estudante é calculada a partir de três notas atribuídas,
+respectivamente, a um trabalho de laboratório, a uma avaliação semestral e a um
+exame final. A média das três notas mencionadas obedece aos pesos a seguir:
+
+Nota                                  Peso
+Trabalho de laboratório                 2
+Avaliação semestral                     3
+Exame final                             5
+
+Faça um programa que receba as três notas, calcule e mostre a média ponderada e
+o conceito que segue a tabela:
+
+Média Ponderada                                Conceito 
+8--------10                                       A
+7--------8                                        B
+6--------7                                        C
+5--------6                                        D
+0--------5                                        E 
+
+Declare nota1, nota2, nota3, nota_final, media_ponderada;
+    Imprima("Digite a nota do Trabalho de laboratório: \n");
+    Leia("nota1);
+    Imprima("Digite a nota da Avaliacao semestral: \n");
+    Leia("nota2);
+    Imprima("Digite a nota do Exame Final: \n");
+    Leia("nota3);
+
+    media_ponderada = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10;
+
+    Imprima("A média do Trabalho de Laboratorio, Avaliação semestral e Exame Final é: % \n\n", media_ponderada);
+ 
+    Se(media_ponderada>8 && media_ponderada<10){
+        Imprima("Obteve o conceito: A \n");
+    }
+    Se não se(media_ponderada>7 && media_ponderada<8){
+        Imprima("Obteve o conceito: B \n");
+    }
+    Se não se(media_ponderada>6 && media_ponderada<7){
+        Imprima("Obteve o conceito: C \n");
+    }
+    Se não se(media_ponderada>5 && media_ponderada<6){
+        Imprima("Obteve o conceito: D \n");
+    }
+    Se não se(media_ponderada>0 && media_ponderada<5){
+        Imprima("Obteve o conceito: E \n");
+    }
+    Se não{
+        Imprima("Nota inválida! \n");
+    }
+
+Fim do algoritmo.
